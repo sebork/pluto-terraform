@@ -1,0 +1,21 @@
+# Ignore Terraform state
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore .terraform working directory
+.terraform/
+
+# Ignore plan files
+*.tfplan
+
+# Ignore sensitive override files
+terraform.tfvars
+
+# Optional: IDE/OS files
+.DS_Store
+*.swp
+*.bak
+*.log
