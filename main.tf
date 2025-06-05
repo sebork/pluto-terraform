@@ -54,3 +54,4 @@ resource "google_cloudfunctions_function" "pluto_function" {
     resource   = google_pubsub_topic.pluto_topic.name
   }
 }
+
